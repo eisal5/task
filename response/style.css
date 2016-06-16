@@ -68,6 +68,8 @@ article img {
 
 #sub img {
   max-width: 100%;
+  box-shadow: 0 0 12px #000;
+  margin-bottom: 24px;
 }
 
 #head-contents {
@@ -86,4 +88,74 @@ article img {
 footer {
   text-align: center;
 }
+
+
+@media screen and (min-width: 768px) {
+  body {
+    /*background-color: green;*/
+  }
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  body {
+    /*background: url(12_col.jpg) repeat-y top center;*/
+    }
+
+  #contents {
+    width: 93.75%; /*960px/1024=93.75%*/
+    overflow: hidden;
+  }
+
+  #contents #main,
+  #contents #sub {
+    margin: 0 1.0416667%; /*10pxマージン儲けたい / 960px *100*/
+    float: left;
+  }
+
+  #contents #main {
+    width: 64.5833333%; /*620/960*/
+  }
+
+  #contents #sub {
+    width: 31.25%; /*300 / 960*/
+  }
+
+  nav ul {
+    width: 93.75%;
+    margin: 0 auto;
+  }
+
+  footer {
+    width: 93.75%;
+    padding: 24px 0;
+    margin: 0 auto;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
