@@ -1,0 +1,1 @@
+<p><small>Copyright &copy; 2016 +vitamin, all rights reserved.</small></p>

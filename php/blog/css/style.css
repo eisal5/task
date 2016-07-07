@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+       -o-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  color: #999900;
+}
+
+.error {
+  background-color: yellow;
+  color: red;
+}
+
+
+#main_pic {
+  width: 100%;
+  height: 300px;
+  background: url(img/vitamin.jpg) no-repeat center;
+  margin: 0;
+  position: relative;
+}
+
+h1 a {
+  color :#fff;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+#contents {
+  max-width: 1205px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+article {
+  width: 280px;
+  height: 280px;
+  margin: 10px;
+  float: left;
+  border :2px solid #cccc66;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+
+article a {
+  font-weight: bold;
+}
+
+.show {
+  width: 800px;
+}
+
+
+h2 {
+  font-size: 30px;
+  color: #999900;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+.gohome {
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.gohome a {
+  text-decoration: none;
+  color: #CCC;
+  font-weight: bold;
+}
+
+.pager {
+  width: 300px;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 30px;
+  clear: both;
+  width: 100%;
+}
+
+footer p {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  color: #999900;
+}
