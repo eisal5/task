@@ -1,0 +1,36 @@
+/*
+Theme Name: Team Bakans
+Theme URL: http://github.com/eisal5
+Author: Ayano
+Author URL: http://github.com/eisal5
+Description: サンプルのテーマ
+Version: 1.0
+Tags: yellow, light
+*/
+
+body {
+  background-color: #fbed46;
+}
+
+.article {
+  background-color: #fff;
+  width: 650px;
+  height: 650px;
+  margin: 20px;
+}
+
+#data {
+  background-color: gray;
+}
+
+#category {
+
+}
+
+#tags {
+
+}
+
+#main {
+  
+}
